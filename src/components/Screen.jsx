@@ -23,13 +23,13 @@ const Screen = () => {
       })()}
       <div className="bottom-navbar">
         <a className="nav-item" onClick={() => setScreen(0)}>
-          Home
+          Flights
         </a>
         <a className="nav-item" onClick={() => setScreen(1)}>
-          Search
+          Explore
         </a>
         <a className="nav-item" onClick={() => setScreen(2)}>
-          Notifications
+          Stats
         </a>
         <a className="nav-item" onClick={() => setScreen(3)}>
           Profile
