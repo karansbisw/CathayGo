@@ -1,11 +1,8 @@
-import React from "react";
-import MapComponent from "./MapComponent";
-import Popup from "./components/Popup";
-
+import Screen from "./components/Screen.jsx";
 const App = () => {
   return (
     <div className="w-screen h-screen overflow-hidden">
-      <MapComponent />
+      <Screen />
     </div>
   );
 };
